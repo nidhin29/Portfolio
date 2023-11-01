@@ -1,0 +1,70 @@
+.box{
+    max-width: 1000px !important;
+}
+.contact p{
+    color: red;
+}
+.contact .form-control{
+    color: #ffffff;
+    padding: 5px 0;
+    background: none;
+    border-radius: 0;
+    border: none ;
+    outline: none !important;
+    border-bottom: 1px solid rgba(256, 256, 256, .5);
+}
+.control-group:focus{
+    border: none !important;
+    outline: none !important;
+}
+input:focus{
+    border: none !important;
+    outline: none !important;
+}
+.sentMessage:focus{
+    border: none !important;
+    outline: none !important;
+}
+.contact .form-control:focus{
+    outline: none !important;
+    border: none !important;
+}
+
+.contact .form-control::placeholder{
+    color: white;
+    opacity: 1;
+}
+.contact  textarea {
+    color: #ffffff;
+    height: 90px;
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    outline: none !important;
+    border-bottom: 1px solid rgba(256, 256, 256, .5);
+}
+
+.contact{
+    margin-top: 45px;
+}
+.contents{
+    background-color:rgb(100, 149, 237);
+    padding: 30px;
+}
+.btn{
+    background-color: white;
+    color:rgb(100, 149, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+   
+    
+  }
+  .btn:hover{
+    border: 1px solid white;
+    color: white;
+  }

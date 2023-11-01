@@ -1,0 +1,349 @@
+ .who::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background:rgb(100, 149, 237);
+    top:11px ;
+    right: 53.5% !important;
+    left: 43.5% ;
+    z-index: -1;
+}
+ .who::after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    top: 11px;
+   left: 46.7% ;
+    background: rgb(100, 149, 237);
+    z-index: 1;
+   
+}
+.hi::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background:rgb(100, 149, 237);
+    top:9px ;
+    right:96.7% ;
+    left:1%;
+}
+
+.hi::after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    top: 9px;
+    left: 3.5%;
+    background: rgb(100, 149, 237);
+   
+}
+ .who{
+    color: grey;
+    font-weight: 600;
+    
+    
+}
+.hi{
+    color: grey;
+    font-weight:lighter;
+    font-size: 16px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+h2{
+color: black;
+text-align: center;
+font-weight: 700;
+font-size: 45px;
+}
+.About{
+   position: relative;
+   margin-top: 55px;
+   
+}
+ .who{
+    text-align: center;
+}
+.content{
+    margin-top: 45px;
+}
+
+
+ .header{
+    position: relative;
+}
+.text{
+    position: relative;
+}
+.h{
+    position: relative;
+}
+@media (max-width: 1280px) {
+     .who::before {
+        right: 53.5% !important;
+        left: 43.7% !important;
+    }
+
+     .who::after {
+        left: 46.6% !important;
+    }  
+}
+@media (max-width: 1280px) {
+    .hi::before {
+        right:96.7% !important;
+    left:1% !important;
+    }
+    .hi::after {
+        left: 3.5% !important;
+    }
+}
+
+@media (max-width: 1216px) {
+     .who::before {
+        right: 53.7% !important;
+        left: 43.7% !important;
+    }
+
+     .who::after {
+        left: 46.5% !important;
+    }  
+}
+@media (max-width: 1216px) {
+    .hi::before {
+        right:96.7% !important;
+    left:1% !important;
+    }
+    .hi::after {
+        left: 3.5% !important;
+    }
+}
+@media (max-width: 1184px) {
+     .who::before {
+        right: 53.8% !important;
+        left: 43.7% !important;
+    }
+
+     .who::after {
+        left: 46.4% !important;
+    }  
+}
+@media (max-width: 1184px) {
+    .hi::before {
+        right:96.7% !important;
+    left:1% !important;
+    }
+    .hi::after {
+        left: 3.5% !important;
+    }
+}
+@media (max-width: 1156px) {
+     .who::before {
+        right: 53.9% !important;
+        left: 43.7% !important;
+    }
+
+     .who::after {
+        left: 46.3% !important;
+    }  
+}
+@media (max-width: 1156px) {
+    .hi::before {
+        right:96.7% !important;
+    left:1% !important;
+    }
+    .hi::after {
+        left: 3.5% !important;
+    }
+}
+@media (max-width: 1080px) {
+     .who::before {
+        right: 54.1% !important;
+        left: 43.7% !important;
+    }
+
+     .who::after {
+        left: 46% !important;
+    }  
+}
+@media (max-width: 1080px) {
+    .hi::before {
+        right:96.7% !important;
+    left:1% !important;
+    }
+    .hi::after {
+        left: 3.5% !important;
+    }
+}
+@media (max-width: 1028px) {
+     .who::before {
+        right: 54.6% !important;
+        left: 43.1% !important;
+    }
+
+     .who::after {
+        left: 45.5% !important;
+    }  
+}
+@media (max-width: 1028px) {
+    .hi::before {
+        right:96.7% !important;
+    left:1% !important;
+    }
+    .hi::after {
+        left: 3.5% !important;
+    }
+}
+@media (max-width: 976px) {
+     .who::before {
+        right: 54.8% !important;
+        left: 41.7% !important;
+    }
+
+     .who::after {
+        left: 45.4% !important;
+    }  
+}
+@media (max-width: 976px) {
+    .hi::before {
+        right: 95.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 4.5% !important;
+    }
+}
+@media (max-width: 916px) {
+     .who::before {
+        right: 55% !important;
+        left: 41.7% !important;
+    }
+
+     .who::after {
+        left: 45.2% !important;
+    }  
+}
+@media (max-width: 916px) {
+    .hi::before {
+        right: 95.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 4.5% !important;
+    }
+}
+@media (max-width: 868px) {
+     .who::before {
+        right: 55.5% !important;
+        left: 41.3% !important;
+    }
+
+     .who::after {
+        left: 44.8% !important;
+    }  
+}
+@media (max-width: 868px) {
+    .hi::before {
+        right: 95.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 4.5% !important;
+    }
+}
+@media (max-width: 748px) {
+     .who::before {
+        right: 56.4% !important;
+        left: 40% !important;
+    }
+
+     .who::after {
+        left: 43.8% !important;
+    }  
+}
+@media (max-width: 748px) {
+    .hi::before {
+        right: 94.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 5.5% !important;
+    }
+}
+@media (max-width: 684px) {
+     .who::before {
+        right: 56.8% !important;
+        left: 39% !important;
+    }
+
+     .who::after {
+        left: 43.4% !important;
+    }  
+}
+@media (max-width: 684px) {
+    .hi::before {
+        right: 93.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 6.6% !important;
+    }
+}
+@media (max-width: 640px) {
+     .who::before {
+        right: 57.5% !important;
+        left: 37.5% !important;
+    }
+
+     .who::after {
+        left: 42.7% !important;
+    }  
+}
+@media (max-width: 640px) {
+    .hi::before {
+        right: 94.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 5.5% !important;
+    }
+}
+@media (max-width: 588px) {
+     .who::before {
+        right: 58.8% !important;
+    left: 35% !important;
+    }
+
+     .who::after {
+        left: 41.8% !important;
+    }  
+}
+@media (max-width: 588px) {
+    .hi::before {
+        right: 92.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 7.5% !important;
+    }
+}
+@media (max-width: 528px) {
+     .who::before {
+        right: 59.8% !important;
+        left: 34% !important;
+    }
+
+     .who::after {
+        left: 40.8% !important;
+    }  
+}
+@media (max-width: 528px) {
+    .hi::before {
+        right: 91.7% !important;
+    left: 1% !important;
+    }
+    .hi::after {
+        left: 8.7% !important;
+    }
+}

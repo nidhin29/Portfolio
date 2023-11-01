@@ -1,0 +1,73 @@
+
+
+.Skills {
+    margin-top: 45px;
+}
+
+.skill-icon {
+    color: rgb(100, 149, 237);
+}
+
+.padding {
+    padding-top: 65px;
+}
+
+.skill-icon {
+    width: 150px;
+    min-height: 150px;
+    border: 1px solid rgb(100, 149, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.icon {
+    font-size: 50px;
+    transition: 0.3s;
+}
+
+.Skills .skill-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    transition: ease-in-out 0.5s;
+    margin-bottom: 30px;
+}
+
+.skill-text {
+    padding-left: 20px;
+}
+
+.h {
+    margin-bottom: 6px;
+}
+
+.Skills .container {
+    max-width: 1140px !important;
+}
+
+
+.Skills .skill-content:hover {
+    background-color: rgb(100, 149, 237);
+    color: white;
+}
+
+.skill-content:hover .icon {
+    font-size: 60px; /* Adjust the size you want when hovered */
+}
+
+.skill-content:hover h3 {
+    color: white; /* Change text color to white when hovered */
+}
+
+.skill-content:hover p {
+    color: white; /* Change text color to white when hovered */
+}
+.skill-content h3 {
+    color: black; /* Change text color to white when hovered */
+}
+
+.skill-content p {
+    color:grey; /* Change text color to white when hovered */
+}

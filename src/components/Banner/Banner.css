@@ -1,0 +1,47 @@
+.type{
+    color: white;
+    font-weight: 500;
+}
+.I{
+    color: white;
+    font-weight: 550;
+    font-size: 50px;
+}
+.hello{
+    color: white;
+    font-size: 29px;
+    font-weight: 550;
+   
+}
+.padding{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+  
+  .banner {
+   position: relative;
+   width: 100%;
+   background-color: rgb(100, 149, 237);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+  
+   
+  }
+  .b1 {
+    height: 100%; 
+   padding-top: 20px;
+    
+  }
+.container{
+    max-width: 1396px!important;
+}
+.img{
+    padding-left: 130px;
+}
+.text{
+    padding-left: 55px;
+}
