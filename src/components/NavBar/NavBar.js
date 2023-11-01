@@ -47,7 +47,7 @@ const CustomNavbar = () => {
             <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#Skills">Skills</Nav.Link>
             <Nav.Link href="#Experience">Experience</Nav.Link>
-            <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#Projects">Portfolio</Nav.Link>
             <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

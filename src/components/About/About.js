@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 function About() {
     useEffect(()=>{AOS.init()},[])
   return (
-   <section className='About' data-aos='fade-zoom-in'>
+   <section className='About' data-aos='fade-zoom-in' id='About'>
     <Container>
         <div className="header">
             <p className='who'>

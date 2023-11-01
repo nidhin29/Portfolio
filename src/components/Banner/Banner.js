@@ -23,7 +23,7 @@ function Banner() {
     };
   }, []);
   return (
-    <section className='banner'>
+    <section className='banner' id='Home'>
       <Container>
         <Row className='align-items-center justify-content-between'>
           <Col className={`${centerText ? 'b2 text-center padding' : 'b2 '}`}xs={12} md={6}>

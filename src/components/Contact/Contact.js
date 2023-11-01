@@ -66,7 +66,7 @@ function Contact() {
     };
 
     return (
-        <section className="contact" data-aos='fade-right'>
+        <section className="contact" data-aos='fade-right' id='Contact'>
             <Container className="box">
                 <Container>
                     <Row className="padding justify-content-center align-items-center">

@@ -12,7 +12,7 @@ function Projects() {
     window.open(url, '_blank');
   };
   return (
-    <section className='Projects' data-aos='fade-zoom-in'>
+    <section className='Projects' data-aos='fade-zoom-in' id='Projects'>
         <div className="header">
         <h2>MY PROJECTS</h2>
       </div> 

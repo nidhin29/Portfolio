@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 function Experience() {
   useEffect(()=>{AOS.init()},[])
   return (
-    <section className='Experience'>
+    <section className='Experience' id='Experience'>
        <div className="header" data-aos='fade-zoom-in'>
         <p className='who'>THE PATH</p>
         <h2>MY EXPERIENCE</h2>
