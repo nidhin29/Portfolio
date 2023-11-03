@@ -200,3 +200,45 @@
             right: 0px;
       }
     }
+    @media (max-width: 527px) {
+        .Experience .text::after{
+            left: -92.5px;
+            right: 0px;
+      }
+    }
+    @media (max-width: 508px) {
+        .Experience .text::after{
+            left: -93px;
+            right: 0px;
+      }
+    }
+    @media (max-width: 500px) {
+        .Experience .text::after{
+            left: -93px !important;
+            right: 0px;
+      }
+    }
+    @media (max-width: 475px) {
+        .Experience .text::after{
+            left: -94px !important;
+            right: 0px;
+      }
+    }
+    @media (max-width: 460px) {
+        .Experience .text::after{
+            left: -95px !important;
+            right: 0px;
+      }
+    }
+    @media (max-width: 445px) {
+        .Experience .text::after{
+            left: -95.5px !important;
+            right: 0px;
+      }
+    }
+    @media (max-width: 417px) {
+        .Experience .text::after{
+            left: -97px !important;
+            right: 0px;
+      }
+    }
