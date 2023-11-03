@@ -32,20 +32,20 @@ function Skills() {
           </Col>
           <Col  xs={12} md={6} lg={6} data-aos='fade-up'>
             <div className="skill-content">
-              <div className="skill-icon">
+              <div className="skill-icon1">
                <FontAwesomeIcon icon={faLaptop} className='icon'/>
               </div>
               <div className="skill-text">
               <h3 className='h'>Web Development</h3>
               <p>
-                I use React Js For developing web sites
+                I use React Js For making websites
               </p>
               </div>
             </div>
           </Col>
           <Col  xs={12} md={6} lg={6} data-aos='fade-up'>
             <div className="skill-content">
-              <div className="skill-icon">
+              <div className="skill-icon2">
                <FontAwesomeIcon icon={faMobileAndroid} className='icon'/>
               </div>
               <div className="skill-text">

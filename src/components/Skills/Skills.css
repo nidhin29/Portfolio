@@ -21,6 +21,26 @@
     justify-content: center;
     background: white;
 }
+.skill-icon1 {
+    color: rgb(100, 149, 237);
+    width: 150px ;
+    min-height: 150px ;
+    border: 1px solid rgb(100, 149, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.skill-icon2 {
+    color: rgb(100, 149, 237);
+    width: 150px ;
+    min-height: 150px ;
+    border: 1px solid rgb(100, 149, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
 
 .icon {
     font-size: 50px;
@@ -69,4 +89,136 @@
 
 .skill-content p {
     color:grey; /* Change text color to white when hovered */
+}
+@media (max-width: 480px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 153px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 165px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+}
+@media (max-width: 469px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 153px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 173px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+}
+@media (max-width: 454px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 153px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 180px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+}
+@media (max-width: 444px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 153px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 185px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+}
+@media (max-width: 435px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 153px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 190px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+}
+@media (max-width: 428px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 153px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 195px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
 }
