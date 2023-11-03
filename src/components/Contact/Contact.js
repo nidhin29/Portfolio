@@ -12,13 +12,14 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_m2g0ayv', 'template_18l4esx', form.current, '8FV1XXoS1rrGkAwft')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    .then((result) => {
+        console.log(result.text);
+    })
+    .catch((error) => {
+        console.error('Error sending email:', error);
+    });
+  
   };
     const [formData, setFormData] = useState({
         name: '',
@@ -61,7 +62,7 @@ function Contact() {
         if (validateForm()) {
             // Form is valid, you can perform your success action here
             setSuccessMessage('Form submitted successfully.');
-            sendEmail();
+            sendEmail(e);
         }
     };
 
