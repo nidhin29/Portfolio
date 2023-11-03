@@ -25,7 +25,7 @@ function Skills() {
               <div className="skill-text">
               <h3 className='h'>Android Development</h3>
               <p>
-                I am mainly focussed on Mobile App<br/> Development using <strong>Flutter</strong>
+                I am mainly focussed on <strong>Flutter</strong>
               </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ function Skills() {
               <div className="skill-text">
               <h3 className='h'>Apps Design</h3>
               <p>
-              Use Figma for designing simple UI/UX for my <br/>own projects
+              Use Figma for making simple UI/UX designs
               </p>
               </div>
             </div>
