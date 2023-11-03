@@ -29,16 +29,25 @@ p{
 .Projects .image1{
    padding-top: 10px;
    object-fit: fill;
+   position: relative;
+   overflow: hidden;
    
+}
+.card{
+   border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
 }
 .Projects .image{
    padding-top: 10px;
    object-fit: fill;
- 
+   position: relative;
+   overflow: hidden;
 }
-.Projects  .text{
-   padding-left: 70px;
-   padding-right: 70px;
+.Projects .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   padding-left: 40px;
 }
 .Projects  .button{
    color: white;

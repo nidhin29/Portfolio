@@ -21,7 +21,10 @@ function Projects() {
            <Col xs={12} md={6} lg={6}>
            <div className="content">
             <div className="image1">
-             <img src={p1} alt="" srcset="" className='display-4'/>              
+             
+              <img src={p1} alt="" srcset="" className='card img-fluid'/>        
+             
+                  
             </div>
             <div className="text">
               <h3>
@@ -40,7 +43,10 @@ function Projects() {
            <Col xs={12} md={6} lg={6}>
            <div className="content">
             <div className="image">
-             <img src={p2} alt="" srcset="" className='display-4'/>              
+             
+              <img src={p2} alt="" srcset="" className='card img-fluid'/>        
+              
+                  
             </div>
             <div className="text">
               <h3>
