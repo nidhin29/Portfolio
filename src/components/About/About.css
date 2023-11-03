@@ -302,3 +302,23 @@ font-size: 45px;
        left: 40% !important;
    }  
 }
+@media (max-width: 460px) {
+    .who::before {
+       right: 62% !important;
+       left: 30% !important;
+   }
+
+    .who::after {
+       left: 38.5% !important;
+   }  
+}
+@media (max-width: 400px) {
+    .who::before {
+       right: 63% !important;
+       left: 29% !important;
+   }
+
+    .who::after {
+       left: 37.5% !important;
+   }  
+}
