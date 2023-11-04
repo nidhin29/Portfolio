@@ -222,3 +222,25 @@
         background: white;
     }
 }
+@media (max-width: 417px) {
+    .skill-icon1 {
+        color: rgb(100, 149, 237);
+        width: 170px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+    .skill-icon2 {
+        color: rgb(100, 149, 237);
+        width: 210px ;
+        min-height: 150px ;
+        border: 1px solid rgb(100, 149, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+}
