@@ -28,14 +28,15 @@ function Projects() {
             </div>
             <div className="text">
               <h3>
-                CINEPHILE
+                Manager
               </h3>
               <p>
-              CINEPHILE is an app built with flutter that uses Firebase as the backend for data storage and authentication.
-              It is an app that allows users to create a list of their favourite movies.
+              A comprehensive personal finance management app built with Flutter that helps users track income and expenses across multiple bank accounts.
+               The app features automatic SMS transaction parsing, visual insights through charts, Google Sign-In authentication,
+                and cloud synchronization powered by Firebase
               </p>
               <button className='button' onClick={() =>
-                    openGitHubLink('https://github.com/nidhin29/CINEPHILE-v.1.0')
+                    openGitHubLink('https://github.com/nidhin29/Manager')
                   }>Source Code</button>
             </div>
            </div>
@@ -50,13 +51,15 @@ function Projects() {
             </div>
             <div className="text">
               <h3>
-              PIGGY BANK
+              Q Flow
               </h3>
               <p>
-              It's a simple money management app, user can add expenses and categorize expenses. This app is built with Flutter
+              A comprehensive digital healthcare management application built with Flutter that revolutionizes the way patients interact
+               with healthcare services. The app provides seamless appointment booking, prescription management, doctor consultations,
+                and patient feedback systems
               </p>
               <button className='button' onClick={() =>
-                    openGitHubLink('https://github.com/nidhin29/Piggy-Bank')
+                    openGitHubLink('https://github.com/nidhin29/Qflow')
                   }>Source Code</button>
             </div>
            </div>

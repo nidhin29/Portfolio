@@ -13,20 +13,59 @@ function Experience() {
         <h2>MY EXPERIENCE</h2>
       </div>
       <Container>
-      <div className="tree">
-        <div className="body" data-aos='fade-right'>
-        <div className="content" >
-            <div className="text">
-                <div className='date'>2022-present</div>
-                <h2>App Developer</h2>
-                <h4>V CEC App Developing Team</h4>
-                <p>
-                    Working as an app develop to build our official college app using Flutter
-                </p>
+        <div className="timeline">
+         
+
+          {/* Experience 4 - Right */}
+          <div className="timeline-item right" data-aos='fade-left'>
+            <div className="timeline-content">
+              <div className="timeline-date">2024-present</div>
+              <h3>Campus Organizer</h3>
+              <h4>GDG on Campus CEC</h4>
+              <p>
+                Organizing events and workshops for Google Developer Group on Campus at CEC
+              </p>
             </div>
           </div>
-        </div> 
-      </div>
+
+          {/* Experience 3 - Left */}
+          <div className="timeline-item left" data-aos='fade-right'>
+            <div className="timeline-content">
+              <div className="timeline-date">2024-present</div>
+              <h3>App Development Mentor</h3>
+              <h4>Proddec</h4>
+              <p>
+                Mentoring and guiding students in our college in mobile app development, 
+                helping them learn Flutter and best practices in software development
+              </p>
+            </div>
+          </div>
+
+          {/* Experience 2 - Right */}
+          <div className="timeline-item right" data-aos='fade-left'>
+           <div className="timeline-content">
+              <div className="timeline-date">2024-present</div>
+              <h3>Flutter Developer</h3>
+              <h4>LogicCraft</h4>
+              <p>
+                Developing cross-platform mobile applications using Flutter framework, 
+                creating innovative solutions for various client projects
+              </p>
+            </div>
+          </div>
+
+           {/* Experience 1 - Left */}
+          <div className="timeline-item left" data-aos='fade-right'>
+            <div className="timeline-content">
+              <div className="timeline-date">2023-2024</div>
+              <h3>App Developer</h3>
+              <h4>V CEC App Developing Team</h4>
+              <p>
+                Working as an app developer to build our official college app using Flutter
+              </p>
+            </div>
+          </div>
+        </div>
       </Container>
       
     </section>
