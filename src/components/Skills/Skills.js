@@ -58,13 +58,39 @@ function Skills() {
           </Col>
           <Col  xs={12} md={6} lg={6} data-aos='fade-up'>
             <div className="skill-content">
+              <div className="skill-icon1">
+               <FontAwesomeIcon icon={faLaptop} className='icon'/>
+              </div>
+              <div className="skill-text">
+              <h3 className='h'>Backend Development</h3>
+              <p>
+                Architecting scalable APIs with <strong>Node.js</strong> and <strong>RabbitMQ</strong>
+              </p>
+              </div>
+            </div>
+          </Col>
+          <Col  xs={12} md={6} lg={6} data-aos='fade-up'>
+            <div className="skill-content">
+              <div className="skill-icon2">
+               <FontAwesomeIcon icon={faLaptop} className='icon'/>
+              </div>
+              <div className="skill-text">
+              <h3 className='h'>DevOps & Cloud</h3>
+              <p>
+                Deployment automation with <strong>Docker</strong>, <strong>GitHub Actions</strong>, and <strong>AWS</strong>
+              </p>
+              </div>
+            </div>
+          </Col>
+          <Col  xs={12} md={6} lg={6} data-aos='fade-up'>
+            <div className="skill-content">
               <div className="skill-icon">
                <FontAwesomeIcon icon={faGlobe} className='icon'/>
               </div>
               <div className="skill-text">
-              <h3 className='h'>Community Builder</h3>
+              <h3 className='h'>Community Leader</h3>
               <p>
-              I am a great community builder
+              Former GDG Organizer and Technical Mentor
               </p>
               </div>
             </div>

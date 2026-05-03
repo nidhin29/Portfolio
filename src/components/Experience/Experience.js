@@ -19,11 +19,11 @@ function Experience() {
           {/* Experience 4 - Right */}
           <div className="timeline-item right" data-aos='fade-left'>
             <div className="timeline-content">
-              <div className="timeline-date">2024-present</div>
-              <h3>Campus Organizer</h3>
+              <div className="timeline-date">2024-2025</div>
+              <h3>Former Campus Organizer</h3>
               <h4>GDG on Campus CEC</h4>
               <p>
-                Organizing events and workshops for Google Developer Group on Campus at CEC
+                Led the Google Developer Group on Campus at CEC, organizing technical events and fostering a developer community.
               </p>
             </div>
           </div>
@@ -31,12 +31,11 @@ function Experience() {
           {/* Experience 3 - Left */}
           <div className="timeline-item left" data-aos='fade-right'>
             <div className="timeline-content">
-              <div className="timeline-date">2024-present</div>
-              <h3>App Development Mentor</h3>
+              <div className="timeline-date">2024-2025</div>
+              <h3>Former App Development Mentor</h3>
               <h4>Proddec</h4>
               <p>
-                Mentoring and guiding students in our college in mobile app development, 
-                helping them learn Flutter and best practices in software development
+                Mentored students in mobile application development, guiding them through Flutter best practices and real-world project builds.
               </p>
             </div>
           </div>
@@ -44,12 +43,11 @@ function Experience() {
           {/* Experience 2 - Right */}
           <div className="timeline-item right" data-aos='fade-left'>
            <div className="timeline-content">
-              <div className="timeline-date">2024-present</div>
-              <h3>Flutter Developer</h3>
+              <div className="timeline-date">2024 - Jan 2026</div>
+              <h3>Freelance Frontend Developer</h3>
               <h4>LogicCraft</h4>
               <p>
-                Developing cross-platform mobile applications using Flutter framework, 
-                creating innovative solutions for various client projects
+                Collaborating on various client projects to build responsive and high-performance web and mobile frontends.
               </p>
             </div>
           </div>
@@ -61,7 +59,7 @@ function Experience() {
               <h3>App Developer</h3>
               <h4>V CEC App Developing Team</h4>
               <p>
-                Working as an app developer to build our official college app using Flutter
+                Collaborated on the official college application, implementing core features and UI using Flutter.
               </p>
             </div>
           </div>

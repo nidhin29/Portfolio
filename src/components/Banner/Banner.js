@@ -35,7 +35,7 @@ function Banner() {
             <h1>
             <span className='type'>
           <Typewriter
-            words={['Flutter Developer','Web Developer','Frontend Developer','Android Designer']}
+            words={['Full-Stack Engineer','Flutter Expert','React Developer','DevOps Enthusiast']}
             loop={true}
             cursor
             cursorStyle='|'
