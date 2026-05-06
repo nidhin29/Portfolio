@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import "./Projects.css"
 import { Col, Container, Row } from 'react-bootstrap'
-import p1 from "../assets/img/p5.png"
-import p2 from "../assets/img/p4.png"
 import catercraft_logo from "../assets/img/catercraft_logo.png"
 import qflow_logo from "../assets/img/qflow_logo.png"
 import expensify_logo from "../assets/img/expensify_logo.png"
