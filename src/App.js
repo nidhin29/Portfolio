@@ -6,7 +6,6 @@ import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import CustomNavbar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -14,9 +13,8 @@ function App() {
         <CustomNavbar/>
         <Banner/>
         <About/>
-        <Skills/>
         <Experience/>
-       <Projects/>
+        <Projects/>
         <Contact/>
         <Footer/>
     </div>

@@ -1,185 +1,123 @@
-
-.Experience h2{
-    color: black;
-    text-align: center;
-    font-weight: 700;
-    font-size: 45px;
+.experience-section {
+  padding: 100px 0;
+  background-color: var(--bg-cream);
 }
 
-/* Timeline Container */
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
+.exp-container {
+  max-width: 1000px;
 }
 
-/* Timeline Center Line */
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 4px;
-    background: rgb(100, 149, 237);
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -2px;
+.exp-header {
+  margin-bottom: 60px;
 }
 
-/* Timeline Items */
-.timeline-item {
-    padding: 20px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
+.exp-title {
+  font-size: 40px;
+  color: var(--text-dark);
 }
 
-/* Timeline Dots */
-.timeline-item::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -10px;
-    background-color: white;
-    border: 4px solid rgb(100, 149, 237);
-    top: 30px;
-    border-radius: 50%;
-    z-index: 1;
+.exp-timeline {
+  display: flex;
+  flex-direction: column;
 }
 
-/* Left Timeline Items */
-.timeline-item.left {
-    left: 0;
+.exp-item {
+  display: flex;
+  align-items: stretch;
+  min-height: 120px;
 }
 
-/* Right Timeline Items */
-.timeline-item.right {
-    left: 50%;
+/* Left side (Company/Dates) */
+.exp-left {
+  flex: 0 0 25%;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 5px;
 }
 
-/* Right Timeline Item Dots */
-.timeline-item.right::after {
-    left: -10px;
+.exp-left h4 {
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 8px;
 }
 
-/* Timeline Content */
-.timeline-content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    border-left: 4px solid rgb(100, 149, 237);
+.exp-left p {
+  font-size: 13px;
+  color: var(--text-light);
+  margin: 0;
 }
 
-/* Timeline Arrows */
-.timeline-item.left .timeline-content::before {
-    content: '';
-    position: absolute;
-    top: 25px;
-    right: -15px;
-    border: 15px solid;
-    border-color: transparent transparent transparent white;
+/* Center (Line and Dot) */
+.exp-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  position: relative;
 }
 
-.timeline-item.right .timeline-content::before {
-    content: '';
-    position: absolute;
-    top: 25px;
-    left: -15px;
-    border: 15px solid;
-    border-color: transparent white transparent transparent;
+.exp-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-top: 5px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 0 6px rgba(255,255,255,0.8);
 }
 
-/* Timeline Content Styling */
-.timeline-date {
-    color: rgb(100, 149, 237) !important;
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 10px;
+.dot-blue { background-color: var(--primary-blue); }
+.dot-red { background-color: #ef4444; }
+.dot-yellow { background-color: #f5b041; }
+.dot-green { background-color: #0f4a47; }
+
+.exp-line {
+  width: 2px;
+  flex-grow: 1;
+  background-color: transparent;
+  border-left: 2px dashed #cbd5e1; /* Subtle dashed line */
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.timeline-content h3 {
-    color: black;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 5px;
+/* Right side (Role/Description) */
+.exp-right {
+  flex: 1;
+  padding-left: 30px;
+  padding-bottom: 40px;
 }
 
-.timeline-content h4 {
-    color: rgb(100, 149, 237);
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 15px;
+.exp-right h3 {
+  font-size: 20px;
+  color: var(--text-dark);
+  margin-bottom: 12px;
 }
 
-.timeline-content p {
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 0;
+.exp-right p {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.6;
 }
 
-/* Mobile Responsive */
-@media screen and (max-width: 768px) {
-    /* Timeline center line moves to left */
-    .timeline::after {
-        left: 31px;
-    }
-    
-    /* All items move to right side */
-    .timeline-item {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-    
-    .timeline-item.right {
-        left: 0%;
-    }
-    
-    /* All dots align to left */
-    .timeline-item::after, 
-    .timeline-item.right::after {
-        left: 21px;
-        right: auto;
-    }
-    
-    /* All arrows point right */
-    .timeline-item.left .timeline-content::before,
-    .timeline-item.right .timeline-content::before {
-        left: -15px;
-        right: auto;
-        border-color: transparent white transparent transparent;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .timeline-item {
-        padding-left: 50px;
-        padding-right: 15px;
-    }
-    
-    .timeline::after {
-        left: 21px;
-    }
-    
-    .timeline-item::after, 
-    .timeline-item.right::after {
-        left: 13.5px;
-        width: 16px;
-        height: 16px;
-    }
-    
-    .timeline-content {
-        padding: 15px 20px;
-    }
-    
-    .timeline-content h3 {
-        font-size: 18px;
-    }
-    
-    .timeline-content h4 {
-        font-size: 14px;
-    }
+@media (max-width: 768px) {
+  .exp-item {
+    flex-direction: column;
+  }
+  
+  .exp-left {
+    text-align: left;
+    padding-right: 0;
+    padding-bottom: 15px;
+  }
+  
+  .exp-center {
+    display: none; /* Hide timeline line on mobile */
+  }
+  
+  .exp-right {
+    padding-left: 0;
+    padding-bottom: 30px;
+    border-left: 3px solid var(--primary-blue);
+    padding-left: 15px;
+  }
 }

@@ -1,47 +1,204 @@
-.type{
-    color: white;
-    font-weight: 500;
-}
-.I{
-    color: white;
-    font-weight: 550;
-    font-size: 50px;
-}
-.hello{
-    color: white;
-    font-size: 29px;
-    font-weight: 550;
-   
-}
-.padding{
-    padding-top: 45px;
-    padding-bottom: 45px;
+.hero-section {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: var(--bg-cream);
+  min-height: 80vh;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
 }
 
-  
-  .banner {
-   position: relative;
-   width: 100%;
-   background-color: rgb(100, 149, 237);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   
+.hero-container {
+  max-width: 1400px;
+}
 
-  
-   
-  }
-  .b1 {
-    height: 100%; 
-   padding-top: 20px;
-    
-  }
-.container{
-    max-width: 1396px!important;
+.hero-greeting {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-dark);
+  margin-bottom: 40px;
+  letter-spacing: -2px;
 }
-.img{
-    padding-left: 130px;
+
+.hero-email {
+  display: inline-block;
+  font-weight: 600;
+  color: #ef4444; /* A soft red like in the mockup */
+  margin-bottom: 50px;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
-.text{
-    padding-left: 55px;
+
+.hero-resume-btn-container {
+  margin-bottom: 100px; /* Keep total spacing roughly the same */
+}
+
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 30px;
+  background-color: var(--primary-blue);
+  color: white !important;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(100, 149, 237, 0.3);
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 25px rgba(100, 149, 237, 0.4);
+  color: white;
+}
+
+.hero-experience {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.exp-number {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1;
+}
+
+.exp-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-light);
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+/* Center Image with Blob */
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 130%; /* Scaled up heavily to match mockup size */
+  max-width: 600px;
+  margin-left: -15%; /* Center it despite width */
+  margin-bottom: -20px;
+}
+
+.brush-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  height: 550px;
+  z-index: -1;
+  filter: url(#brush-texture);
+  opacity: 0.95;
+}
+
+.stroke {
+  position: absolute;
+  background-color: var(--primary-blue);
+  border-radius: 100px;
+  transform: rotate(-35deg);
+}
+
+/* Constructing the sweeping multi-brush effect */
+.stroke-1 { width: 420px; height: 100px; top: 120px; left: 80px; }
+.stroke-2 { width: 500px; height: 130px; top: 200px; left: 20px; }
+.stroke-3 { width: 450px; height: 110px; top: 290px; left: 50px; }
+.stroke-4 { width: 300px; height: 80px; top: 380px; left: 150px; }
+.stroke-5 { width: 200px; height: 60px; top: 70px; left: 160px; }
+
+.profile-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right Content */
+.hero-right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.hero-description {
+  font-size: 20px;
+  color: var(--text-light);
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero-typewriter {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-blue);
+  margin-bottom: 150px;
+}
+
+.hero-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.badge-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--card-shadow);
+  border: 1px dashed rgba(0,0,0,0.1);
+}
+
+.badge-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-align: right;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.z-index-1 { z-index: 1; }
+.z-index-2 { z-index: 2; position: relative; }
+
+@media (max-width: 991px) {
+  .hero-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-right-content {
+    text-align: center !important;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .hero-badge {
+    align-items: center;
+  }
+  .hero-email {
+    margin-bottom: 40px;
+  }
+  .hero-typewriter {
+    margin-bottom: 40px;
+  }
+  .hero-experience {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
 }
