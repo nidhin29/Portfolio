@@ -191,6 +191,9 @@
   .hero-badge {
     align-items: center;
   }
+  .badge-text {
+    text-align: center;
+  }
   .hero-email {
     margin-bottom: 40px;
   }
