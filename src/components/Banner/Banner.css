@@ -85,7 +85,7 @@
   width: 130%; /* Scaled up heavily to match mockup size */
   max-width: 600px;
   margin-left: -15%; /* Center it despite width */
-  margin-bottom: -20px;
+  margin-bottom: -40px;
 }
 
 .brush-container {
